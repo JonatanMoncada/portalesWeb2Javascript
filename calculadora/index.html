@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <input type="text" name="display" id="display">
+
+            <div>
+                <input type="button" value="7" id="siete" onclick="valor(document.querySelector('#siete').value)">
+                <input type="button" value="8" id="ocho" onclick="valor(document.querySelector('#ocho').value)">
+                <input type="button" value="9" id="nueve" onclick="valor(document.querySelector('#nueve').value)">
+                <input type="button" value="*" id="multiplicar" onclick="valor(document.querySelector('#multiplicar').value)">
+            </div>
+            <div>
+                <input type="button" value="4" id="cuatro" onclick="valor(document.querySelector('#cuatro').value)">
+                <input type="button" value="5" id="cinco" onclick="valor(document.querySelector('#cinco').value)">
+                <input type="button" value="6" id="seis" onclick="valor(document.querySelector('#seis').value)">
+                <input type="button" value="-" id="restar" onclick="valor(document.querySelector('#restar').value)">
+            </div>
+            <div>
+                <input type="button" value="1" id="uno" onclick="valor(document.querySelector('#uno').value)">
+                <input type="button" value="2" id="dos" onclick="valor(document.querySelector('#dos').value)">
+                <input type="button" value="3" id="tres" onclick="valor(document.querySelector('#tres').value)">
+                <input type="button" value="+" id="sumar" onclick="valor(document.querySelector('#sumar').value)">
+            </div>
+            <div>
+                <input type="button" value="0" id="cero" onclick="valor(document.querySelector('#cero').value)">
+                <input type="button" value="." id="punto" onclick="valor(document.querySelector('#punto').value)">
+                <input type="button" value="/" id="dividir" onclick="valor(document.querySelector('#dividir').value)">                
+            </div>
+
+            <div>
+                <input type="button" name="igual" id="igual" value="=" onclick="calcular()">
+                <input type="button" value="C" id="limpiar" onclick="limpiarDisplay()">
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

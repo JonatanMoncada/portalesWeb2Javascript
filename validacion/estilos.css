@@ -1,0 +1,16 @@
+.caja{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.especial{
+    background-color: blanchedalmond;
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    border: 2px dashed red;
+}
